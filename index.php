@@ -37,8 +37,8 @@ if (isguestuser()) {
 
 echo $OUTPUT->header();
 
-echo 'Cargar otra página usando iframe.';
+echo '¡Busca algo en Google!.';
 echo '<br><br><br>';
-echo '<iframe src="index.php" width="99%" height="700" name="main" style="border:none"></iframe>';
+echo '<iframe src="google.com" width="99%" height="700" name="main" style="border:none"></iframe>';
 
 echo $OUTPUT->footer();
